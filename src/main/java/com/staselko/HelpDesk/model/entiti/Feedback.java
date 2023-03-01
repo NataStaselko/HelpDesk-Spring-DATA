@@ -22,7 +22,7 @@ public class Feedback implements Serializable {
     @Column(name = "Date")
     private LocalDateTime date = LocalDateTime.now();
 
-    @Column(name = "TEXT")
+    @Column(name = "TEXT", length = 500)
     private String text;
 
     @ManyToOne(fetch = FetchType.LAZY)

@@ -29,7 +29,8 @@ public class CommentController {
 
     @GetMapping
     public ResponseEntity<CommentsResponse> getAllCommentByTicket(@RequestParam(value = "ticketId") Long ticketId,
-                                                                  @RequestParam(value = "pageNo", defaultValue = "0", required = false) int pageNo){
+                                                                  @RequestParam(value = "pageNo", defaultValue = "0",
+                                                                          required = false) int pageNo){
         CommentsResponse comments = commentService.getComment(ticketId,pageNo, Integer.parseInt(page_size));
         return ResponseEntity.ok(comments);
     }

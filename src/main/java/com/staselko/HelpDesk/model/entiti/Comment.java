@@ -17,7 +17,7 @@ public class Comment implements Serializable {
     @Column(name = "ID", nullable = false, updatable = false)
     private Long id;
 
-    @Column(name = "TEXT")
+    @Column(name = "TEXT", length = 500)
     private String text;
 
     @Column(name = "DATE")

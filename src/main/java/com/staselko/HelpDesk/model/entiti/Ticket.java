@@ -23,10 +23,10 @@ public class Ticket implements Serializable{
     @Column(name = "ID", nullable = false, updatable = false)
     private Long id;
 
-    @Column(name = "NAME")
+    @Column(name = "NAME", length = 100)
     private String name;
 
-    @Column(name = "DESCRIPTION")
+    @Column(name = "DESCRIPTION", length = 500)
     private String description;
 
     @Column(name = "CREATED_ON")
