@@ -35,19 +35,20 @@ public class ActionsList {
         enumMapOwner.put(State.DRAFT, Arrays.asList(Action.SUBMIT.getCode(), Action.CANCEL.getCode()));
         enumMapOwner.put(State.DECLINED, Arrays.asList(Action.SUBMIT.getCode(), Action.CANCEL.getCode()));
 
-        if (feedbackRepo.findAllByTicket(ticket).isEmpty()) {
-            enumMapOwner.put(State.DONE, Collections.singletonList(Action.LEAVE_FEEDBACK.getCode()));
-        }else {
-            enumMapOwner.put(State.DONE, Collections.singletonList(Action.VIEW_FEEDBACK.getCode()));
-        }
         EnumMap<State, List<String>> enumMapManager = new EnumMap<>(State.class);
         enumMapManager.put(State.NEW, Arrays.asList(Action.APPROVE.getCode(), Action.DECLINE.getCode(), Action.CANCEL.getCode()));
-
 
         EnumMap<State, List<String>> enumMapEngineer = new EnumMap<>(State.class);
         enumMapEngineer.put(State.APPROVED, Arrays.asList(Action.ASSIGN_TO_ME.getCode(), Action.CANCEL.getCode()));
         enumMapEngineer.put(State.IN_PROGRESS, Collections.singletonList(Action.DONE.getCode()));
-        enumMapEngineer.put(State.DONE, Collections.singletonList(Action.VIEW_FEEDBACK.getCode()));
+
+
+        if (feedbackRepo.findAllByTicket(ticket).isEmpty()) {
+            enumMapOwner.put(State.DONE, Collections.singletonList(Action.LEAVE_FEEDBACK.getCode()));
+        }else {
+            enumMapOwner.put(State.DONE, Collections.singletonList(Action.VIEW_FEEDBACK.getCode()));
+            enumMapEngineer.put(State.DONE, Collections.singletonList(Action.VIEW_FEEDBACK.getCode()));
+        }
 
         actions.put("owner", enumMapOwner);
         actions.put("manager", enumMapManager);

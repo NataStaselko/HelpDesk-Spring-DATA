@@ -31,8 +31,8 @@ public class JwtFilter extends OncePerRequestFilter {
         String token = null;
         String tokenParam = null;
 
-        if (request.getParameter("token") != null){
-            tokenParam = request.getParameter("token");
+        if (request.getParameter("file") != null){
+            tokenParam = request.getParameter("file");
         }
 
         if (tokenHeader != null && tokenHeader.startsWith("Bearer ")) {

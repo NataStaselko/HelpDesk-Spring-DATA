@@ -32,7 +32,7 @@ public class AttachmentController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Resource> getAttachmentByTicket(@PathVariable(value = "id") Long attachmentId,
-                                                          @RequestParam(value = "token") String token){
+                                                          @RequestParam(value = "file") String token){
         final Attachment attachment = attachmentService.getAttachmentById(attachmentId);
         MimetypesFileTypeMap fileTypeMap = new MimetypesFileTypeMap();
         String mime = fileTypeMap.getContentType(attachment.getName());
