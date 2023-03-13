@@ -54,7 +54,7 @@ public class ActionListTest {
 
 
     private Ticket getTicketAfter() {
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         Ticket ticket = new Ticket();
         ticket.setId(1l);
         ticket.setName("name");

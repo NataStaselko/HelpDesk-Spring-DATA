@@ -54,7 +54,7 @@ public class TicketConverterTest {
 
 
     private TicketDto getTicketDto(){
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         UserDto userDto = new UserDto();
         TicketDto ticketDto = new TicketDto();
         ticketDto.setName("name");
@@ -67,7 +67,7 @@ public class TicketConverterTest {
     }
 
     private Ticket getTicket(){
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         User user = new User();
         Ticket ticket = new Ticket();
         ticket.setName("name");

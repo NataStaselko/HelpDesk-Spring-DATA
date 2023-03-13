@@ -78,7 +78,7 @@ public class TicketServiceTest {
     }
 
     private TicketDto getTicketDto(){
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         TicketDto ticketDto = new TicketDto();
         ticketDto.setName("name");
         ticketDto.setState("DRAFT");
@@ -88,7 +88,7 @@ public class TicketServiceTest {
     }
 
     private Ticket getTicketBefore(){
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         Ticket ticket = new Ticket();
         ticket.setName("name");
         ticket.setState(State.valueOf("DRAFT"));
@@ -98,7 +98,7 @@ public class TicketServiceTest {
     }
 
     private Ticket getTicketAfter(){
-        Category category = new Category(1L, "Application & Services");
+        Category category = new Category();
         Ticket ticket = new Ticket();
         ticket.setId(1l);
         ticket.setName("name");

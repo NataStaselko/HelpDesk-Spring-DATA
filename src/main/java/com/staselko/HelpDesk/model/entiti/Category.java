@@ -26,10 +26,5 @@ public class Category implements Serializable {
     @OneToMany(mappedBy = "category", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     private List<Ticket> tickets = new ArrayList<>();
 
-
-    public Category(Long id, String name) {
-        this.id = id;
-        this.name = name;
-    }
 }
 
