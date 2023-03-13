@@ -17,7 +17,7 @@ public class History implements Serializable{
     private Long id;
 
     @Column(name = "DATE")
-    private LocalDateTime date = LocalDateTime.now();
+    private LocalDateTime date = LocalDateTime.now().withNano(0);
 
     @Column(name = "ACTION")
     private String action;

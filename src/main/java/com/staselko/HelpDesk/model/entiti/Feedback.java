@@ -20,7 +20,7 @@ public class Feedback implements Serializable {
     private Integer rate;
 
     @Column(name = "Date")
-    private LocalDateTime date = LocalDateTime.now();
+    private LocalDateTime date = LocalDateTime.now().withNano(0);
 
     @Column(name = "TEXT", length = 500)
     private String text;

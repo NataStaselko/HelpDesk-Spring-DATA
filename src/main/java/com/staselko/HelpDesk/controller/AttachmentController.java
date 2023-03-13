@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -25,7 +26,7 @@ public class AttachmentController {
 
 
     @PostMapping
-    public ResponseEntity<Void>uploadAttachments(@RequestParam MultipartFile[] files, @RequestParam Long ticketId){
+    public ResponseEntity<Void>uploadAttachments(@RequestParam(value = "files") MultipartFile[] files, @RequestParam(value = "ticketId") Long ticketId){
         attachmentService.saveAllAttachment(files, ticketId);
         return ResponseEntity.ok().build();
     }

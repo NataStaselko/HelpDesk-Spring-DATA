@@ -30,7 +30,7 @@ public class Ticket implements Serializable{
     private String description;
 
     @Column(name = "CREATED_ON")
-    private LocalDateTime created = LocalDateTime.now();
+    private LocalDateTime created = LocalDateTime.now().withNano(0);
 
     @Column(name = "DESIRED_RESOLUTION_DATE")
     private String desired;

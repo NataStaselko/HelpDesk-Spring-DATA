@@ -80,7 +80,7 @@ public class TicketServiceImpl implements TicketService {
 
         Pageable pageable = getPageable (pageNo, pageSize, sortBy, orderBy, filter_id, filter_name,
                                          filter_date, filter_urgency, filter_state);
-        User user = userProvider.getCurrentUser();
+        User user = getCurrentUser();
         TicketSpecification specificationFilter = getFilterSpecification(filter_id, filter_name, filter_date, filter_urgency, filter_state);
         TicketSpecification specification = new TicketSpecification();
 

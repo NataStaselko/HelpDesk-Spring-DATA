@@ -3,6 +3,7 @@ package com.staselko.HelpDesk.controller;
 import com.staselko.HelpDesk.model.dto.FeedbackDto;
 import com.staselko.HelpDesk.service.FeedbackService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,7 +20,7 @@ public class FeedbackController {
     public ResponseEntity<Void> saveFeedback(@RequestBody @Valid FeedbackDto feedbackDto,
                                              @RequestParam(value = "ticketId") Long ticketId){
         feedbackService.saveFeedback(feedbackDto, ticketId);
-        return ResponseEntity.ok().build();
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
     @GetMapping

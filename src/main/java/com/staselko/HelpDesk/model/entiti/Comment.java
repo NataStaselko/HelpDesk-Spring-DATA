@@ -21,7 +21,7 @@ public class Comment implements Serializable {
     private String text;
 
     @Column(name = "DATE")
-    private LocalDateTime date = LocalDateTime.now();
+    private LocalDateTime date = LocalDateTime.now().withNano(0);
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "USER_ID")
