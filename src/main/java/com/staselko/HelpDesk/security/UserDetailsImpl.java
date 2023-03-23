@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.security;
 
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

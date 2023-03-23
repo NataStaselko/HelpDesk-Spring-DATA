@@ -2,8 +2,8 @@ package com.staselko.HelpDesk.service.Impl;
 
 import com.staselko.HelpDesk.converter.FeedbackConverter;
 import com.staselko.HelpDesk.model.dto.FeedbackDto;
-import com.staselko.HelpDesk.model.entiti.Feedback;
-import com.staselko.HelpDesk.model.entiti.Ticket;
+import com.staselko.HelpDesk.model.entity.Feedback;
+import com.staselko.HelpDesk.model.entity.Ticket;
 import com.staselko.HelpDesk.repository.FeedbackRepo;
 import com.staselko.HelpDesk.service.FeedbackService;
 import com.staselko.HelpDesk.service.TicketService;

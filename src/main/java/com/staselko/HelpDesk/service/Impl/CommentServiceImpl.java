@@ -2,8 +2,8 @@ package com.staselko.HelpDesk.service.Impl;
 
 import com.staselko.HelpDesk.converter.CommentConverter;
 import com.staselko.HelpDesk.model.dto.CommentDto;
-import com.staselko.HelpDesk.model.entiti.Comment;
-import com.staselko.HelpDesk.model.entiti.Ticket;
+import com.staselko.HelpDesk.model.entity.Comment;
+import com.staselko.HelpDesk.model.entity.Ticket;
 import com.staselko.HelpDesk.model.exception.ResourceNotFoundException;
 import com.staselko.HelpDesk.model.response.CommentsResponse;
 import com.staselko.HelpDesk.repository.CommentRepo;

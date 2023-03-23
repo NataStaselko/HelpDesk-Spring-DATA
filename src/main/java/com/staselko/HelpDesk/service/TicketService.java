@@ -1,7 +1,7 @@
 package com.staselko.HelpDesk.service;
 
 import com.staselko.HelpDesk.model.dto.TicketDto;
-import com.staselko.HelpDesk.model.entiti.Ticket;
+import com.staselko.HelpDesk.model.entity.Ticket;
 import com.staselko.HelpDesk.model.enums.Action;
 import com.staselko.HelpDesk.model.response.TicketResponse;
 public interface TicketService {

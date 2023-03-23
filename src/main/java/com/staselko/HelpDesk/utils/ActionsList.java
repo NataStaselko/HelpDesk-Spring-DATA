@@ -1,16 +1,13 @@
 package com.staselko.HelpDesk.utils;
 
 import com.staselko.HelpDesk.model.dto.TicketDto;
-import com.staselko.HelpDesk.model.entiti.Feedback;
-import com.staselko.HelpDesk.model.entiti.Ticket;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.Ticket;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.model.enums.Action;
 import com.staselko.HelpDesk.model.enums.State;
 import com.staselko.HelpDesk.model.exception.ResourceNotFoundException;
 import com.staselko.HelpDesk.repository.FeedbackRepo;
 import com.staselko.HelpDesk.repository.TicketRepo;
-import com.staselko.HelpDesk.service.FeedbackService;
-import com.staselko.HelpDesk.service.TicketService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

@@ -2,10 +2,8 @@ package com.staselko.HelpDesk.converter.impl;
 
 import com.staselko.HelpDesk.converter.UserConverter;
 import com.staselko.HelpDesk.model.dto.UserDto;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.User;
 import lombok.RequiredArgsConstructor;
-import org.springframework.security.crypto.factory.PasswordEncoderFactories;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 @Component

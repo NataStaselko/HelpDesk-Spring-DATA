@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.service;
 
-import com.staselko.HelpDesk.model.entiti.Attachment;
+import com.staselko.HelpDesk.model.entity.Attachment;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.util.List;

@@ -3,7 +3,7 @@ package com.staselko.HelpDesk.converter.impl;
 import com.staselko.HelpDesk.converter.TicketConverter;
 import com.staselko.HelpDesk.converter.UserConverter;
 import com.staselko.HelpDesk.model.dto.TicketDto;
-import com.staselko.HelpDesk.model.entiti.Ticket;
+import com.staselko.HelpDesk.model.entity.Ticket;
 import com.staselko.HelpDesk.model.enums.State;
 import com.staselko.HelpDesk.model.enums.Urgency;
 import lombok.RequiredArgsConstructor;

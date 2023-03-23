@@ -1,5 +1,4 @@
-package com.staselko.HelpDesk.model.entiti;
-import com.staselko.HelpDesk.utils.annotations.TextValid;
+package com.staselko.HelpDesk.model.entity;
 import lombok.Data;
 
 import javax.persistence.*;

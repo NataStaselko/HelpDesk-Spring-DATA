@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.service.Impl;
 
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.model.enums.Role;
 import com.staselko.HelpDesk.model.exception.ResourceNotFoundException;
 import com.staselko.HelpDesk.repository.UserRepo;

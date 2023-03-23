@@ -2,9 +2,9 @@ package com.staselko.HelpDesk.service.Impl;
 
 import com.staselko.HelpDesk.converter.HistoryConverter;
 import com.staselko.HelpDesk.model.dto.HistoryDto;
-import com.staselko.HelpDesk.model.entiti.History;
-import com.staselko.HelpDesk.model.entiti.Ticket;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.History;
+import com.staselko.HelpDesk.model.entity.Ticket;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.model.exception.ResourceNotFoundException;
 import com.staselko.HelpDesk.model.response.HistoryResponse;
 import com.staselko.HelpDesk.repository.HistoryRepo;

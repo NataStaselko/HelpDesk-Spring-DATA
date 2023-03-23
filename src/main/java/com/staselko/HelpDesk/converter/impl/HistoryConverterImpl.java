@@ -3,7 +3,7 @@ package com.staselko.HelpDesk.converter.impl;
 import com.staselko.HelpDesk.converter.HistoryConverter;
 import com.staselko.HelpDesk.converter.UserConverter;
 import com.staselko.HelpDesk.model.dto.HistoryDto;
-import com.staselko.HelpDesk.model.entiti.History;
+import com.staselko.HelpDesk.model.entity.History;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

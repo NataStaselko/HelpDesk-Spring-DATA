@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.staselko</groupId>
-	<artifactId>HelpDesk</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>helpdesk</artifactId>
+	<version>0.0.1</version>
 	<name>HelpDesk</name>
 	<description>Final project</description>
 	<properties>

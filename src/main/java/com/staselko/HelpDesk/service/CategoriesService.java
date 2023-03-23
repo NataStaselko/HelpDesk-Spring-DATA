@@ -1,7 +1,6 @@
 package com.staselko.HelpDesk.service;
 
-import com.staselko.HelpDesk.model.entiti.Category;
-import org.springframework.stereotype.Service;
+import com.staselko.HelpDesk.model.entity.Category;
 
 import java.util.List;
 

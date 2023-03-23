@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.repository;
 
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.model.enums.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 

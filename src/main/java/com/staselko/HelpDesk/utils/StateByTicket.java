@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.utils;
 
-import com.staselko.HelpDesk.model.entiti.Ticket;
+import com.staselko.HelpDesk.model.entity.Ticket;
 import com.staselko.HelpDesk.model.enums.Action;
 import com.staselko.HelpDesk.model.enums.State;
 import org.springframework.stereotype.Component;

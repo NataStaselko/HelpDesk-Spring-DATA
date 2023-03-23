@@ -1,7 +1,7 @@
 package com.staselko.HelpDesk.utils.email;
 
-import com.staselko.HelpDesk.model.entiti.Ticket;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.Ticket;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.model.enums.Role;
 import com.staselko.HelpDesk.model.enums.State;
 import com.staselko.HelpDesk.service.UserService;

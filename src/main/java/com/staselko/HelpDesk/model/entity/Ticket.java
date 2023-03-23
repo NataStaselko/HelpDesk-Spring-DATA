@@ -1,4 +1,4 @@
-package com.staselko.HelpDesk.model.entiti;
+package com.staselko.HelpDesk.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;;
 import com.staselko.HelpDesk.model.enums.State;
@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,6 @@
 package com.staselko.HelpDesk.model.dto;
 
-import com.staselko.HelpDesk.model.entiti.Category;
-import com.staselko.HelpDesk.model.enums.Action;
+import com.staselko.HelpDesk.model.entity.Category;
 import com.staselko.HelpDesk.utils.annotations.DateValid;
 import com.staselko.HelpDesk.utils.annotations.TextValid;
 import lombok.AllArgsConstructor;

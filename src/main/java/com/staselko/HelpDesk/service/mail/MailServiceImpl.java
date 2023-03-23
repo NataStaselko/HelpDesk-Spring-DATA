@@ -1,11 +1,9 @@
 package com.staselko.HelpDesk.service.mail;
-import com.staselko.HelpDesk.model.entiti.Ticket;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.Ticket;
+import com.staselko.HelpDesk.model.entity.User;
 import com.staselko.HelpDesk.utils.email.EmailCreator;
 import com.staselko.HelpDesk.utils.email.EmailTemplate;
 import lombok.RequiredArgsConstructor;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;

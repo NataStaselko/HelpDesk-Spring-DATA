@@ -1,7 +1,7 @@
 package com.staselko.HelpDesk.converter;
 
 import com.staselko.HelpDesk.model.dto.UserDto;
-import com.staselko.HelpDesk.model.entiti.User;
+import com.staselko.HelpDesk.model.entity.User;
 
 public interface UserConverter {
     User toUser (UserDto userDto);

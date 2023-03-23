@@ -3,7 +3,7 @@ package com.staselko.HelpDesk.converter.impl;
 import com.staselko.HelpDesk.converter.CommentConverter;
 import com.staselko.HelpDesk.converter.UserConverter;
 import com.staselko.HelpDesk.model.dto.CommentDto;
-import com.staselko.HelpDesk.model.entiti.Comment;
+import com.staselko.HelpDesk.model.entity.Comment;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 

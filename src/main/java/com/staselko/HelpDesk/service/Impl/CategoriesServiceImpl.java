@@ -1,6 +1,6 @@
 package com.staselko.HelpDesk.service.Impl;
 
-import com.staselko.HelpDesk.model.entiti.Category;
+import com.staselko.HelpDesk.model.entity.Category;
 import com.staselko.HelpDesk.repository.CategoriesRepo;
 import com.staselko.HelpDesk.service.CategoriesService;
 import lombok.RequiredArgsConstructor;

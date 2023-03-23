@@ -1,4 +1,4 @@
-package com.staselko.HelpDesk.model.entiti;
+package com.staselko.HelpDesk.model.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.staselko.HelpDesk.model.enums.Role;

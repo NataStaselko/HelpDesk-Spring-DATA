@@ -1,4 +1,4 @@
-package com.staselko.HelpDesk.model.entiti;
+package com.staselko.HelpDesk.model.entity;
 
 import lombok.Data;
 

@@ -1,13 +1,12 @@
 package com.staselko.HelpDesk.controller;
 
-import com.staselko.HelpDesk.model.entiti.Attachment;
+import com.staselko.HelpDesk.model.entity.Attachment;
 import com.staselko.HelpDesk.model.response.AttachmentResponse;
 import com.staselko.HelpDesk.service.AttachmentService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.Resource;
 import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
