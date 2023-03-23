@@ -25,7 +25,7 @@ HelpDesk
 #### _Project start:_
 To start application run the following command from your terminal:
 ```sh
-java -jar helpdesk-0.1.jar
+java -jar helpdesk-0.0.1.jar
 ```
 Client-Page start:
 ```sh
