@@ -1,5 +1,5 @@
 # HelpDesk-v1
-Created using Hibernate
+Created using Spring Data
 
 Run the command from your terminal:
 ```sh
