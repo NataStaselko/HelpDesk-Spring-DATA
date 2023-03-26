@@ -1,7 +1,6 @@
 package com.staselko.HelpDesk.controller;
 
 
-import com.staselko.HelpDesk.model.dto.HistoryDto;
 import com.staselko.HelpDesk.model.response.HistoryResponse;
 import com.staselko.HelpDesk.service.HistoryService;
 import lombok.RequiredArgsConstructor;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 
 @RestController
 @RequestMapping("/histories")
