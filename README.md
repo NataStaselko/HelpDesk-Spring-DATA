@@ -31,8 +31,11 @@ and run the following command from your terminal:
 ```sh
 java -jar helpdesk-0.0.1.jar
 ```
+
 then follow the link:
+
 https://natastaselko.github.io/helpdesk/
+
 ---
 ---
 ## _Server requests:_
