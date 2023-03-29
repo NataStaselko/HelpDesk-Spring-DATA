@@ -39,7 +39,7 @@ public class CommentController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Void> updateComment(@PathVariable(value = "id") Long commentId,
-                                              @RequestBody  CommentDto commentDto){
+                                              @RequestBody  @Valid CommentDto commentDto){
         commentService.changeComment(commentId, commentDto);
         return ResponseEntity.ok().build();
     }
