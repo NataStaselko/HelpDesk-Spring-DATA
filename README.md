@@ -25,7 +25,7 @@ HelpDesk
 #### _Project start:_
 To start the application download the file: 
 
-https://github.com/NataStaselko/HelpDesk-v1/releases
+https://disk.yandex.ru/d/ARjfWIwo51GEuQ
 
 and run the following command from your terminal:
 ```sh
